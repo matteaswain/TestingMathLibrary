@@ -13,10 +13,10 @@ namespace TestingMathLibrary
         {
             return i - j;
         }
-
-        public int Multiply(int i, int j)
+// casting means idc what type was, want it returned the type in ()s
+        public ulong Multiply(int i, int j)
         {
-            return i * j;
+            return (ulong)(i * j); // casting example
         }
 
         public int Divide(int i, int j)

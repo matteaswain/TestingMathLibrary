@@ -8,7 +8,7 @@ namespace TestingMathLibrary
     {
         int Addition(int i, int j);
         int Subtraction(int i, int j);
-        int Multiply(int i, int j);
+        ulong Multiply(int i, int j);
         int Divide(int i, int j);
         int Power(int i, int j);
         int Square(int i);
